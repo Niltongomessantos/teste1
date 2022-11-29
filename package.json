@@ -1,0 +1,25 @@
+{
+  "name": "teste1",
+  "version": "1.0.0",
+  "description": "Cucumber test number 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Cucumber",
+    "chimarrao"
+  ],
+  "author": "Nilton",
+  "license": "MIT",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^14.0.0",
+    "cypress": "^10.11.0"
+  },
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions" : "cypress/support/step_definitions/**/*.js"
+  }
+}
