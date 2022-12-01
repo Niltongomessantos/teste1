@@ -1,5 +1,5 @@
 Feature: Cucumber test
     Scenario: Login in page
-        Given I visit page
+        Given I visit pages
 
         
